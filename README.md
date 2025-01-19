@@ -1,93 +1,212 @@
-# FastAPI Backend Learning 📚
+# FastAPI Backend Learning 🚀
 
-Este repositorio documenta mi aprendizaje de desarrollo backend con **FastAPI**. La mayoría de los recursos están basados en la documentación oficial, especialmente de la sección [Aprende](https://fastapi.tiangolo.com/es/tutorial/). El enfoque principal es práctico, con ejercicios y proyectos que refuerzan los conceptos clave.
+Este repositorio está diseñado para aprender FastAPI de manera práctica a través de proyectos incrementales. Cada proyecto se construye consultando secciones específicas de la documentación oficial de FastAPI, combinando teoría y práctica.
 
-## Estructura del Repositorio 🗂️
-
-El repositorio está organizado en diferentes carpetas según el progreso y los temas abordados:
+## Estructura del Repositorio 📚
 
 ### 1. `setup/`
-Instrucciones para configurar el entorno de desarrollo:
-- **Entornos virtuales**: Cómo configurar un entorno virtual para el proyecto.
-- **Variables de entorno**: Uso de variables para configuración segura.
-- **Setup de FastAPI**: Guía básica para iniciar con FastAPI.
+Instrucciones esenciales para comenzar:
+- **Entornos virtuales**: Configuración del ambiente de desarrollo
+- **Variables de entorno**: Gestión de configuraciones
+- **Setup de FastAPI**: Guía inicial
 
 ### 2. `fundamentos/`
-Conceptos básicos de Python y FastAPI:
-- **Tipos en Python**: Ejercicios para trabajar con tipos y anotaciones.
-- **Concurrencia y async/await**: Introducción y prácticas con funciones asíncronas.
-- Más temas básicos relacionados con FastAPI.
+Conceptos base necesarios:
+- **Tipos en Python**: Ejercicios de tipado
+- **Concurrencia y async/await**: Programación asíncrona
+- **Conceptos básicos de FastAPI**
 
-### 3. `tutorial/`
-Ejercicios prácticos basados en la Guía del Usuario de FastAPI:
-- **Primeros pasos**: Configuración básica y rutas iniciales.
-- **Parámetros de Path y Query**: Ejercicios con parámetros dinámicos.
-- **Request Body y Validaciones**: Cómo trabajar con datos enviados al servidor.
-- Más secciones cubiertas del tutorial oficial.
+### 3. `proyectos/`
+Proyectos prácticos organizados por nivel de complejidad:
 
-Cada tema incluye:
-- Una breve descripción teórica (cuando sea necesario).
-- Ejercicios prácticos organizados por nivel de dificultad.
+#### Nivel Básico
 
-### 4. `guia_avanzada/`
-Prácticas para temas avanzados de FastAPI. Este apartado se completará una vez terminada la guía del usuario.
+##### 1. API CRUD Básica (ToDo List)
+**Temas de la documentación:**
+- Primeros Pasos
+- Parámetros de Path
+- Request Body
+- Modelos de Response
+- Códigos de Estado
 
-### 5. `proyectos/`
-Proyectos prácticos para aplicar los conceptos aprendidos:
-- **Mini-proyectos**: Ejercicios más grandes que combinan varios conceptos.
-- **Aplicación completa**: Proyecto final que consolida todo el aprendizaje.
+##### 2. Sistema de Gestión de Biblioteca
+**Temas de la documentación:**
+- Parámetros de Query y Validaciones
+- Modelos de Parámetros Query
+- Cuerpo - Múltiples Parámetros
+- Body - Campos
+- Modelos Anidados
 
-### 6. `extras/`
-Recursos adicionales y consejos:
-- **Tips y trucos**: Consejos útiles para trabajar con FastAPI.
-- **Enlaces útiles**: Recursos externos para ampliar conocimientos.
-- **Ejemplos**: Código adicional para experimentar con FastAPI.
+##### 3. Gestor de Notas Personales
+**Temas de la documentación:**
+- Validaciones de Strings
+- Validaciones Numéricas
+- Modelos Pydantic Básicos
+- Tipos de Datos Básicos
+- Manejo de Fechas
 
----
+##### 4. Sistema de Registro de Estudiantes
+**Temas de la documentación:**
+- Enumeraciones
+- Validaciones Personalizadas Básicas
+- Modelos de Lista
+- Relaciones Simples
+- Respuestas HTTP Básicas
 
-## Cómo Usar este Repositorio 🚀
+##### 5. API de Gestión de Tareas del Hogar
+**Temas de la documentación:**
+- Modelos con Campos Opcionales
+- Valores por Defecto
+- Validaciones Condicionales
+- Respuestas Personalizadas
+- Manejo de Errores Básico
 
-### Requisitos
-- Python 3.10 o superior.
-- FastAPI y Uvicorn instalados (ver instrucciones en `setup/`).
+##### 6. Catálogo de Películas
+**Temas de la documentación:**
+- Búsqueda y Filtrado Básico
+- Ordenamiento
+- Paginación Simple
+- Modelos de Respuesta Múltiple
+- Validación de Parámetros de Consulta
 
-### Instrucciones
-1. Clona este repositorio:
+#### Nivel Intermedio
+
+##### 7. API de Gestión de Productos
+**Temas de la documentación:**
+- Ejemplos de Request
+- Tipos de Datos Extra
+- Parámetros de Cookie/Header
+- Modelos de Cookies/Header
+- Validaciones Avanzadas
+
+##### 8. Sistema de Reservas de Restaurante
+**Temas de la documentación:**
+- Response Models
+- Form Data
+- JSON Compatible Encoder
+- Manejo de Estados
+- Validaciones de Tiempo
+
+##### 9. Plataforma de Compartir Archivos
+**Temas de la documentación:**
+- Manejo de Archivos
+- Archivos Estáticos
+- Manejo de Errores
+- Path Operations
+- Límites de Tamaño
+
+##### 10. Sistema de Gestión de Inventario
+**Temas de la documentación:**
+- Transacciones Básicas
+- Modelos Relacionados
+- Validaciones de Negocio
+- Respuestas Personalizadas
+- Manejo de Estados Complejos
+
+##### 11. API de Gestión de Proyectos
+**Temas de la documentación:**
+- Dependencias Básicas
+- Modelos Anidados Complejos
+- Validaciones entre Campos
+- Estados y Transiciones
+- Filtros Avanzados
+
+##### 12. Sistema de Encuestas
+**Temas de la documentación:**
+- Formularios Dinámicos
+- Validaciones Grupales
+- Respuestas Agregadas
+- Exportación de Datos
+- Manejo de Versiones
+
+##### 13. Plataforma de Recetas
+**Temas de la documentación:**
+- Búsqueda Avanzada
+- Tags y Categorías
+- Relaciones Muchos a Muchos
+- Filtros Combinados
+- Ordenamiento Múltiple
+
+##### 14. Sistema de Reservas de Vuelos
+**Temas de la documentación:**
+- Validaciones de Disponibilidad
+- Manejo de Fechas Avanzado
+- Estados Complejos
+- Confirmaciones por Email
+- Caché Básico
+
+##### 15. API de Red Social Básica
+**Temas de la documentación:**
+- Autenticación Simple
+- Relaciones entre Usuarios
+- Timeline Básico
+- Notificaciones
+- Privacidad Básica
+
+##### 16. Plataforma de Aprendizaje
+**Temas de la documentación:**
+- Progreso del Usuario
+- Contenido Estructurado
+- Evaluaciones
+- Estadísticas Básicas
+- Reportes Simples
+
+
+
+### 4. `extras/`
+Recursos complementarios:
+- **Tips y trucos**: Mejores prácticas
+- **Enlaces útiles**: Recursos adicionales
+- **Ejemplos**: Código de referencia
+
+## Cómo Usar este Repositorio 🛠️
+
+### Requisitos Previos
+- Python 3.10+
+- Conocimientos básicos de Python
+- Editor de código (VS Code recomendado)
+
+### Configuración Inicial
+1. Clonar el repositorio:
    ```bash
-   git clone https://github.com/tuusuario/fastapi-backend-learning.git
-   cd fastapi-backend-learning
+   git clone https://github.com/jaennova/fastapi.git
+   cd fastapi
    ```
-2. Crea un entorno virtual y activa:
+
+2. Crear entorno virtual:
    ```bash
    python -m venv venv
    source venv/bin/activate  # En Windows: venv\Scripts\activate
    ```
-3. Instala las dependencias:
+
+3. Instalar dependencias:
    ```bash
    pip install -r requirements.txt
    ```
-4. Navega por las carpetas y comienza a aprender 🚀.
 
----
+### Estructura de cada Proyecto
+Cada proyecto incluye:
+- **README.md**: Descripción y requisitos
+- **theory.md**: Conceptos teóricos
+- **hints.md**: Pistas para implementación
+- **tests/**: Pruebas unitarias
+- **src/**: Código fuente
 
-## Recursos 📖
+## Recursos 📚
 - [Documentación oficial de FastAPI](https://fastapi.tiangolo.com/es/)
-- [Guía para principiantes de Python](https://docs.python.org/es/3/tutorial/index.html)
-- [Roadmap de Backend](https://roadmap.sh/backend)
+- [Tutorial de Python](https://docs.python.org/es/3/tutorial/)
+- [Roadmap Backend](https://roadmap.sh/backend)
+
+## Progreso de Aprendizaje ✅
+
+| Proyecto | Estado | Conceptos Clave |
+|----------|---------|----------------|
+| Setup Inicial | ✅ Completado | Entorno, FastAPI basics |
+| ToDo List | 🟡 En Progreso | CRUD, Path params |
+| Biblioteca | ⚪ Pendiente | Query params, Models |
+| Productos | ⚪ Pendiente | Headers, Cookies |
+| ... | ... | ... |
 
 ---
 
-## Progreso 📊
-
-| Tema                       | Estado        |
-| -------------------------- | ------------- |
-| Configuración inicial      | 🔄 En progreso |
-| Tipos en Python            | 🔄 En progreso |
-| Concurrencia y async/await | 🔲 Pendiente   |
-| Tutorial de FastAPI        | 🔲 Pendiente   |
-| Proyectos prácticos        | 🔲 Pendiente   |
-| Guía avanzada de usuario   | 🔲 Pendiente   |
-
----
-
-¡Explora, aprende y diviértete construyendo con FastAPI! 🚀
+¡Explora, aprende y construye con FastAPI! 🚀
